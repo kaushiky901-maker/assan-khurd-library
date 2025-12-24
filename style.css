@@ -104,4 +104,34 @@ footer {
     .leader-card {
         width: 90%;
     }
+
+}.books-section {
+    background: #f4f9ff;
+    padding: 40px;
+}
+
+.books-section h3 {
+    text-align: center;
+    color: #1a237e;
+    margin-bottom: 30px;
+}
+
+.book-category {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #ff9800;
+    border-radius: 6px;
+}
+
+.book-category h4 {
+    color: #2e7d32;
+}
+
+.book-category ul {
+    margin-left: 20px;
+}
+
+.book-category li {
+    line-height: 1.8;
 }
