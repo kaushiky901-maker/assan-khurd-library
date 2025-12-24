@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gram Panchayat Assan Khurd Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Gram Panchayat Assan Khurd Library</h1>
+    <h2>ग्राम पंचायत असन खुर्द पुस्तकालय</h2>
+    <p>Government Panchayat Library</p>
+</header>
+
+<nav>
+    <a href="#">Home | होम</a>
+    <a href="#">Inspiration | प्रेरणा</a>
+    <a href="#">Books | पुस्तकें</a>
+    <a href="#">Fees | शुल्क</a>
+    <a href="#">Contact | संपर्क</a>
+</nav>
+
+<!-- RUNNING QUOTES -->
+<section class="quote-section">
+    <div class="quote active">“Live as if you were to die tomorrow. Learn as if you were to live forever.” – Mahatma Gandhi</div>
+    <div class="quote">“Dreams are not what you see in sleep, dreams are things which do not let you sleep.” – A.P.J. Abdul Kalam</div>
+    <div class="quote">“The nation first, always first.” – Chandrashekhar Azad</div>
+    <div class="quote">“They may kill me, but they cannot kill my ideas.” – Bhagat Singh</div>
+</section>
+
+<!-- INSPIRATIONAL PERSONALITIES -->
+<section class="leaders">
+    <h3>Great Indian Personalities | महान भारतीय व्यक्तित्व</h3>
+
+    <div class="leader-card">
+        <img src="images/gandhi.jpg" alt="Mahatma Gandhi">
+        <h4>Mahatma Gandhi</h4>
+        <p>Father of the Nation</p>
+    </div>
+
+    <div class="leader-card">
+        <img src="images/kalpana.jpg" alt="Kalpana Chawla">
+        <h4>Kalpana Chawla</h4>
+        <p>First Indian Woman in Space</p>
+    </div>
+
+    <div class="leader-card">
+        <img src="images/azad.jpg" alt="Chandrashekhar Azad">
+        <h4>Chandrashekhar Azad</h4>
+        <p>Freedom Fighter</p>
+    </div>
+
+    <div class="leader-card">
+        <img src="images/bhagat.jpg" alt="Bhagat Singh">
+        <h4>Bhagat Singh</h4>
+        <p>Revolutionary Hero</p>
+    </div>
+
+    <div class="leader-card">
+        <img src="images/sukhdev.jpg" alt="Sukhdev">
+        <h4>Sukhdev</h4>
+        <p>Freedom Fighter</p>
+    </div>
+</section>
+
+<footer>
+    <p>
+        Near Government Primary School, Assan Khurd  
+        <br>
+        Panipat, Haryana – 132105 | 📞 92547 00020
+    </p>
+</footer>
+
+<script>
+    const quotes = document.querySelectorAll(".quote");
+    let i = 0;
+    setInterval(() => {
+        quotes[i].classList.remove("active");
+        i = (i + 1) % quotes.length;
+        quotes[i].classList.add("active");
+    }, 3500);
+</script>
+
+</body>
+</html>
+</section>
+
+<section id="books" class="section fade-in">
+    <h3>Available Books | उपलब्ध पुस्तकें</h3>
+    <ul>
+        <li>Competitive Exam Books</li>
+        <li>School & College Books</li>
+        <li>General Knowledge</li>
+        <li>Daily Newspapers</li>
+    </ul>
+</section>
+
+<section id="fees" class="section fade-in">
+    <h3>Maintenance Fees | रख-रखाव शुल्क</h3>
+    <p>
+        <strong>Boys:</strong> ₹200  
+        <br>
+        <strong>Girls:</strong> Free
+        <br><br>
+        <strong>लड़के:</strong> ₹200  
+        <br>
+        <strong>लड़कियाँ:</strong> निःशुल्क
+    </p>
+</section>
+
+<section id="contact" class="section fade-in">
+    <h3>Contact & Address | संपर्क एवं पता</h3>
+    <p>
+        Gram Panchayat Library, Near Government Primary School  
+        <br>
+        Village Assan Khurd, District Panipat  
+        <br>
+        Haryana – 132105  
+        <br><br>
+        📞 92547 00020
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Gram Panchayat Assan Khurd</p>
+</footer>
+
+</body>
+</html>
